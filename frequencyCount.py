@@ -4,10 +4,10 @@ import time
 import re 
 import numpy as np 
 
-direcetory = '' # directory of files you want to search through
+directory = '' # directory of files you want to search through
 input_directory = '' # directory of files with your search criteria
 processed = '' # directory to store files with processed results
-file_list = os.listdir(direcetory)
+file_list = os.listdir(directory)
 input_list = os.listdir(input_directory)
 extracted_columns = [] # establish columns for extracted data files if needed
 
